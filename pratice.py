@@ -50,7 +50,19 @@
 # print ("Area of circle is :",Area)
 
 
-from math import pi
-radius = float(input("enter the radius of circle: "))
-area =pi*radius**2
-print("Area of circle with radius " + str(radius) + " is: " + str(area))
+# from math import pi
+# radius = float(input("enter the radius of circle: "))
+# area =pi*radius**2
+# print("Area of circle with radius " + str(radius) + " is: " + str(area))
+
+# fname=input(" enter tour first name ")
+# lname=input(" enter your last name ")
+
+# print("my name is " + fname+ " " + lname)
+
+
+n=input("input some comma seperated numbers: ")
+list = n.split(",")
+tuples=tuple(list)
+print("list", list)
+print("tuples", tuples)
