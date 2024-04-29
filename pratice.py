@@ -61,8 +61,13 @@
 # print("my name is " + fname+ " " + lname)
 
 
-n=input("input some comma seperated numbers: ")
-list = n.split(",")
-tuples=tuple(list)
-print("list", list)
-print("tuples", tuples)
+# n=input("input some comma seperated numbers: ")
+# list = n.split(",")
+# tuples=tuple(list)
+# print("list", list)
+# print("tuples", tuples)
+
+filename = input("enter the file name: ")
+extent = filename.split(".")
+print("the extension of file: .",extent[-1])
+
